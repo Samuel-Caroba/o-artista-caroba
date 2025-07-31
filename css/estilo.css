@@ -80,11 +80,11 @@ h1 {
 }
 
 
-#second {
+section#second {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 200px;
   padding: 80px 40px;
 }
 
@@ -160,6 +160,7 @@ main.l #principal {
   border: solid 1px rgb(63, 60, 60);
   width: 500px;
   heigth: auto;
+  
 }
 main.m{
   background-color: rgb(226, 72, 61);
@@ -179,6 +180,14 @@ main.m #principal {
   width:200px;
   gap:70px;
 }
+
 section#descricao {
-  border: 0px;
+  padding:20px;
+  width:600px;
+  heigth:320px;
+  border:solid lightgray 2px;
+}
+
+iframe{
+  border: black solid 2px;
 }
